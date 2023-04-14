@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/workpal-landing/static/css/main.d2327600.css",
-    "main.js": "/workpal-landing/static/js/main.47b7208c.js",
+    "main.js": "/workpal-landing/static/js/main.424fb515.js",
+    "static/media/robotpal.svg": "/workpal-landing/static/media/robotpal.db198fec244b91ba7c0dada687f5129c.svg",
+    "static/media/appstore.svg": "/workpal-landing/static/media/appstore.04cae79f7d3a4700f5c8ea70f6ae62df.svg",
+    "static/media/playstore.svg": "/workpal-landing/static/media/playstore.aa576eab20629d1bd36a0d25dded2329.svg",
     "static/media/CarbonaTest-ExtraBold.otf": "/workpal-landing/static/media/CarbonaTest-ExtraBold.3a65e760e40f4cb54470.otf",
     "static/media/CarbonaTest-SemiBold.otf": "/workpal-landing/static/media/CarbonaTest-SemiBold.ae34849d97f723f3e3cf.otf",
     "static/media/CarbonaTest-Bold.otf": "/workpal-landing/static/media/CarbonaTest-Bold.2525663e7ac208685d93.otf",
     "static/media/CarbonaTest-Regular.otf": "/workpal-landing/static/media/CarbonaTest-Regular.fb6d1fa09cb1c4a3adef.otf",
+    "static/media/wave.svg": "/workpal-landing/static/media/wave.5b61b541fa7d9dacef6b34c91be66bac.svg",
+    "static/media/workpal-wave-mobile.svg": "/workpal-landing/static/media/workpal-wave-mobile.4443348da79364024cee6e1b1883fd87.svg",
+    "static/media/workpal-logo.svg": "/workpal-landing/static/media/workpal-logo.95454b56c6fe4cf09b150defb7733064.svg",
     "index.html": "/workpal-landing/index.html",
     "main.d2327600.css.map": "/workpal-landing/static/css/main.d2327600.css.map",
-    "main.47b7208c.js.map": "/workpal-landing/static/js/main.47b7208c.js.map"
+    "main.424fb515.js.map": "/workpal-landing/static/js/main.424fb515.js.map"
   },
   "entrypoints": [
     "static/css/main.d2327600.css",
-    "static/js/main.47b7208c.js"
+    "static/js/main.424fb515.js"
   ]
 }
