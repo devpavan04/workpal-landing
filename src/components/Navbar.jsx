@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import WorkpalLogo from '../svgs/workpal-logo.svg';
 
 export const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -11,7 +12,7 @@ export const Navbar = () => {
     <div className='flex justify-between items-center py-6'>
       <div className='flex items-center'>
         {/* Logo */}
-        <img src='/static/svgs/workpal-logo.svg' alt='Workpal Logo' className='w-32' />
+        <img src={WorkpalLogo} alt='Workpal Logo' className='w-32' />
       </div>
       <div className='hidden lg:flex items-center uppercase text-neutral-0 font-regular text-[14px] gap-10'>
         <a href='#about'>About</a>

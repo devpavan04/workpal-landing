@@ -1,4 +1,9 @@
 import { useState, useEffect } from 'react';
+import PlayStoreButton from '../svgs/playstore.svg';
+import AppStoreButton from '../svgs/appstore.svg';
+import Wave from '../svgs/wave.svg';
+import WaveMobile from '../svgs/workpal-wave-mobile.svg';
+import RobotPal from '../svgs/robotpal.svg';
 
 export const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -24,23 +29,19 @@ export const HeroSection = () => {
           Download Proposal
         </button>
         <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row'>
-          <img src='/static/svgs/playstore.svg' alt='Playstore Download' className='cursor-pointer' />
-          <img src='/static/svgs/appstore.svg' alt='Appstore Download' className='cursor-pointer' />
+          <img src={PlayStoreButton} alt='Playstore Download' className='cursor-pointer' />
+          <img src={AppStoreButton} alt='Appstore Download' className='cursor-pointer' />
         </div>
       </div>
       {/* Robotpal */}
       <div className='relative h-[400px] lg:w-1/2'>
         {isMobile ? (
-          <img
-            src='/static/svgs/workpal-wave-mobile.svg'
-            alt='Workpal Wave'
-            className='absolute inset-0 mx-auto my-14'
-          />
+          <img src={WaveMobile} alt='Workpal Wave' className='absolute inset-0 mx-auto my-14' />
         ) : (
-          <img src='/static/svgs/wave.svg' alt='Wave' className='absolute inset-36 -translate-x-44 mx-auto my-14' />
+          <img src={Wave} alt='Wave' className='absolute inset-36 -translate-x-44 mx-auto my-14' />
         )}
         <img
-          src='/static/svgs/robotpal.svg'
+          src={RobotPal}
           alt='Robotpal On A Phone'
           className='absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:-translate-y-36 z-10 max-h-[400px] w-full'
         />
