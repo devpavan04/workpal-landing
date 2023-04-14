@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CarbonaTest-Regular';
+  src: url('./fonts/CarbonaTest-Regular.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'CarbonaTest-SemiBold';
+  src: url('./fonts/CarbonaTest-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'CarbonaTest-Bold';
+  src: url('./fonts/CarbonaTest-Bold.otf');
+}
+
+@font-face {
+  font-family: 'CarbonaTest-ExtraBold';
+  src: url('./fonts/CarbonaTest-ExtraBold.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
