@@ -29,7 +29,7 @@ export const Content = () => {
 
       <footer className='block max-w-[1024px] m-auto px-[16px]'>
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </footer>
     </>
   );

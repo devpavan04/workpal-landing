@@ -28,7 +28,7 @@ export const HeroSection = () => {
         <button className='text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[32px]'>
           Download Proposal
         </button>
-        <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row'>
+        <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row md:flex-row'>
           <img src={PlayStoreButton} alt='Playstore Download' className='cursor-pointer' />
           <img src={AppStoreButton} alt='Appstore Download' className='cursor-pointer' />
         </div>
