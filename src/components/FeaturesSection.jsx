@@ -93,7 +93,7 @@ export const FeaturesSection = () => {
             How WorkPal makes your life easier
           </p>
         </div>
-        <div className="flex flex-col section-content gap-[35px] lg:gap-[100px]">
+        <div className="flex flex-col section-content gap-[35px] lg:gap-[100px] mb-[30px] lg:mb-[80px]">
           {FeatureList.map((feature, index) => (
             <FeatureItem
               key={index}
