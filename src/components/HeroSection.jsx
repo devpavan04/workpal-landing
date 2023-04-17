@@ -5,6 +5,7 @@ import Wave from '../svgs/wave.svg';
 import WaveMobile from '../svgs/workpal-wave-mobile.svg';
 import RobotPal from '../svgs/robotpal.svg';
 import RobotpalWaving from '../images/robotpal-waving-hq.webp';
+import { handleProposalClick } from '../utils';
 
 export const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -26,7 +27,7 @@ export const HeroSection = () => {
         <p className='font-regular mt-[18px]'>
           Forget about forgetting, let WorkPal be your note-taking assistant for in-person meetings
         </p>
-        <button className='text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[32px]'>
+        <button onClick={handleProposalClick} className='text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[32px]'>
           Download Proposal
         </button>
         <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row md:flex-row lg:ml-[-10px]'>
