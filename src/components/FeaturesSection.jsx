@@ -85,7 +85,7 @@ export const FeaturesSection = () => {
   return (
     <div>
       <div>
-        <div className="section-header mb-[30px] lg:mb-[84px]">
+        <div className="section-header mb-[30px] mt-[30px] lg:mb-[84px] lg:mt-[80px]">
           <h2 className="text-primary-one text-center font-bold text-[28px] font-extraBold lg:text-[36px]">
             Our Features
           </h2>
