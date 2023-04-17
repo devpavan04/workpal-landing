@@ -24,12 +24,12 @@ export const Content = () => {
         {/* <DetailsSection /> */}
 
         {/* Team Section */}
-        {/* <TeamSection /> */}
+        <TeamSection />
       </main>
 
       <footer className='block max-w-[1024px] m-auto px-[16px]'>
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </footer>
     </>
   );

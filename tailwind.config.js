@@ -5,9 +5,10 @@ module.exports = {
     colors: {
       'primary-one': '#606AFF',
       'primary-two': '#F1F2FF',
-      secondary: '#00C4A1',
+      'secondary': '#00C4A1',
       'white-0': '#FFFFFF',
       'neutral-0': '#3E325A',
+      'neutral-1': '#E5E7FF',
     },
     fontFamily: {
       regular: ['CarbonaTest-Regular', 'sans-serif'],
