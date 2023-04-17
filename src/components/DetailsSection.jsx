@@ -1,5 +1,6 @@
 import { useLayoutEffect, useEffect, useRef, useState } from "react";
 import NeedHelpIcon from "../svgs/need-help-robotpal-icon.svg";
+import { handleProposalClick } from "../utils";
 
 export const DetailsSection = () => {
 
@@ -23,7 +24,7 @@ export const DetailsSection = () => {
               Get more information about WorkPal, please download our proposal
               here!
             </p>
-            <button className="text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[10px]">
+            <button onClick={handleProposalClick} className="text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[10px]">
               Download Proposal
             </button>
           </div>

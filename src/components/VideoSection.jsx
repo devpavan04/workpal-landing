@@ -2,7 +2,7 @@ export const VideoSection = () => {
   return (
     <div className="bg-neutral-1 rounded-xl">
       <div className="absolute left-0 z-[-1] w-[100%] h-[286px] lg:h-[565px]"></div>
-      <div className="flex justify-center items-center py-[42px]">
+      <div className="flex justify-center items-center py-[42px]" id="about">
         <iframe
           src="https://player.vimeo.com/video/818198120?h=cd958ac4ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameborder="0"

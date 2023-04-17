@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import WorkpalLogo from '../svgs/workpal-logo.svg';
+import { handleProposalClick } from '../utils';
 
 export const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -18,7 +19,7 @@ export const Navbar = () => {
         <a href='#about'>About</a>
         <a href='#features'>Features</a>
         <a href='#team'>Team</a>
-        <button className='font-semiBold py-2 px-4 rounded-lg bg-secondary text-white-0'>Download Proposal</button>
+        <button onClick={handleProposalClick} className='font-semiBold py-2 px-4 rounded-lg bg-secondary text-white-0'>Download Proposal</button>
       </div>
       <div className='lg:hidden'>
         <button onClick={toggleMobileMenu} className='focus:outline-none'>
@@ -47,7 +48,7 @@ export const Navbar = () => {
                 <a href='#team' className='block'>
                   Team
                 </a>
-                <button className='block text-center w-full font-semibold py-2 px-4 rounded-lg bg-secondary text-white-0'>
+                <button onClick={handleProposalClick} className='block text-center w-full font-semibold py-2 px-4 rounded-lg bg-secondary text-white-0'>
                   Download Proposal
                 </button>
               </div>

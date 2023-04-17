@@ -12,7 +12,7 @@ import Pavan from "../svgs/pavan.svg";
 import Saurab from "../svgs/saurab.svg";
 import Magnetix from "../svgs/magnetix-logo.svg";
 import Team from "../svgs/team.svg";
-import RobotpalWaving from "../images/robotpal-waving.gif";
+import RobotpalWaving from "../images/robotpal-waving-hq.webp";
 
 const team = [
   {
@@ -22,7 +22,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/Anarodriguezv/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "http://anarodriguez.ca/",
     },
   },
   {
@@ -32,7 +32,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/aoinetsu/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://aoinetsu.com/",
     },
   },
   {
@@ -42,7 +42,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/aurelioselman/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://aurelioselman.com/",
     },
   },
   {
@@ -62,7 +62,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/javier-p-r/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://javierperez.ca/",
     },
   },
   {
@@ -109,7 +109,7 @@ const team = [
 
 export const TeamSection = () => {
   return (
-    <div className="bg-neutral-1 pt-6 px-6 md:px-10 rounded-xl rounded-t-none">
+    <div className="bg-neutral-1 pt-6 px-6 md:px-10 rounded-xl rounded-t-none" id="team">
       <h2 className="font-extraBold text-[28px] text-primary-one text-center">
         Our Pals
       </h2>
@@ -122,7 +122,7 @@ export const TeamSection = () => {
         <img src={Magnetix} alt="Magnetix" className="block mx-auto" />
         <div className="w-full relative">
           <img src={Team} alt="Team" className="w-full" />
-          <img src={RobotpalWaving} alt="Robotpal Waving" className="absolute w-[10%] left-[57%] top-[56%]" />
+          <img src={RobotpalWaving} alt="Robotpal Waving" className="absolute w-[10%] left-[56.5%] top-[55%]" />
         </div>
       </div>
     </div>
