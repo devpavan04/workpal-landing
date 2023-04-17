@@ -12,7 +12,7 @@ import Pavan from "../svgs/pavan.svg";
 import Saurab from "../svgs/saurab.svg";
 import Magnetix from "../svgs/magnetix-logo.svg";
 import Team from "../svgs/team.svg";
-import RobotpalWaving from "../images/robotpal-waving.gif";
+import RobotpalWaving from "../images/robotpal-waving-hq.webp";
 
 const team = [
   {
@@ -122,7 +122,7 @@ export const TeamSection = () => {
         <img src={Magnetix} alt="Magnetix" className="block mx-auto" />
         <div className="w-full relative">
           <img src={Team} alt="Team" className="w-full" />
-          <img src={RobotpalWaving} alt="Robotpal Waving" className="absolute w-[10%] left-[57%] top-[56%]" />
+          <img src={RobotpalWaving} alt="Robotpal Waving" className="absolute w-[10%] left-[56.5%] top-[55%]" />
         </div>
       </div>
     </div>

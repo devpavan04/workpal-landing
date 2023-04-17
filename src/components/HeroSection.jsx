@@ -4,7 +4,7 @@ import AppStoreButton from '../svgs/appstore.svg';
 import Wave from '../svgs/wave.svg';
 import WaveMobile from '../svgs/workpal-wave-mobile.svg';
 import RobotPal from '../svgs/robotpal.svg';
-import RobotpalWaving from '../images/robotpal-waving.gif';
+import RobotpalWaving from '../images/robotpal-waving-hq.webp';
 
 export const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
