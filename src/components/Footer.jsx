@@ -5,7 +5,7 @@ import InstagramLogo from '../svgs/instagram-logo.svg';
 
 export const Footer = () => {
   return (
-    <div>
+    <div className='py-14'>
       <img src={WorkPalLogo} alt='Workpal Logo' className='block md:mx-auto' />
       <div className='mt-[44px] mb-[38px] flex flex-col gap-6 md:flex-row md:justify-between md:px-1 lg:px-2'>
         <div className='md:flex md:flex-col md:items-center gap-6'>
