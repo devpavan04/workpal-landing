@@ -4,6 +4,7 @@ import AppStoreButton from '../svgs/appstore.svg';
 import Wave from '../svgs/wave.svg';
 import WaveMobile from '../svgs/workpal-wave-mobile.svg';
 import RobotPal from '../svgs/robotpal.svg';
+import RobotpalWaving from '../images/robotpal-waving.gif';
 
 export const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,23 +29,30 @@ export const HeroSection = () => {
         <button className='text-center font-semiBold py-[18px] px-[40px] rounded-xl bg-secondary text-white-0 mt-[32px]'>
           Download Proposal
         </button>
-        <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row md:flex-row'>
+        <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row md:flex-row lg:ml-[-10px]'>
           <img src={PlayStoreButton} alt='Playstore Download' className='cursor-pointer' />
           <img src={AppStoreButton} alt='Appstore Download' className='cursor-pointer' />
         </div>
       </div>
       {/* Robotpal */}
-      <div className='relative h-[400px] lg:w-1/2'>
+      <div className='relative h-[400px] w-full lg:w-1/2'>
         {isMobile ? (
-          <img src={WaveMobile} alt='Workpal Wave' className='absolute inset-0 mx-auto my-14' />
+          <img src={WaveMobile} alt='Workpal Wave' className='absolute inset-0 mx-auto my-14 w-full z-[-1]' />
         ) : (
-          <img src={Wave} alt='Wave' className='absolute inset-36 -translate-x-44 mx-auto my-14' />
+          <img src={Wave} alt='Wave' className='absolute inset-36 -translate-x-44 mx-auto my-14 z-[-1]' />
         )}
-        <img
-          src={RobotPal}
-          alt='Robotpal On A Phone'
-          className='absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:-translate-y-36 z-10 max-h-[400px] w-full'
-        />
+        <div className='grid grid-cols-1 grid-rows-1 place-items-center max-w-[400px] mx-auto mt-[5%]'>
+          <img
+            src={RobotPal}
+            alt='Robotpal On A Phone'
+            className='col-start-1 row-start-1 col-end-1 row-end-1 mt-10 z-100'
+          />
+          <img
+            src={RobotpalWaving}
+            alt='Robotpal Waving'
+            className='col-start-1 row-start-1 col-end-1 row-end-1 w-1/2 mb-[50%] mr-[10%] z-200'
+          />
+        </div>
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className='mt-[44px] mb-[38px] flex flex-col gap-6 md:flex-row md:justify-between md:px-1 lg:px-2'>
         <div className='md:flex md:flex-col md:items-center gap-6'>
           <h3 className='uppercase text-primary-one font-bold text-[16px]'>DOWNLOAD THE APP</h3>
-          <div className='md:flex md:items-center justify-center'>
+          <div className='ml-[-10px] md:ml-0 md:flex md:items-center justify-center'>
             <img src={PlayStoreButton} alt='Playstore Download' className='cursor-pointer' />
             <img src={AppStoreButton} alt='Appstore Download' className='cursor-pointer' />
           </div>
@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
         <div className='md:flex md:flex-col md:items-center gap-6'>
           <h3 className='uppercase text-primary-one font-bold text-[16px]'>FOLLOW US</h3>
-          <img src={InstagramLogo} alt='Instagram Logo' className='mt-3' />
+          <a href="https://www.instagram.com/workpal_app/"><img src={InstagramLogo} alt='Instagram Logo' className='mt-3' /></a>
         </div>
       </div>
       <p className='block text-primary-one mb-3 md:text-center'>&copy; 2023 Magnetix. All Rights Reserved.</p>
