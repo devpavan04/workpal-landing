@@ -5,10 +5,13 @@ import Wave from '../svgs/wave.svg';
 import WaveMobile from '../svgs/workpal-wave-mobile.svg';
 import RobotPal from '../svgs/robotpal.svg';
 import RobotpalWaving from '../images/robotpal-waving-hq.webp';
-import { handleProposalClick } from '../utils';
+import { handleChangeImageOnMouseEnter, handleChangeImageOnMouseLeave, handleProposalClick } from '../utils';
+import PlayStoreSoon from '../svgs/playstore-soon.svg';
+import AppStoreSoon from '../svgs/appstore-soon.svg';
 
 export const HeroSection = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [playStoreImageSrc, setPlayStoreImageSrc] = useState(PlayStoreButton);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 1024);
@@ -31,8 +34,30 @@ export const HeroSection = () => {
           Download Proposal
         </button>
         <div className='flex flex-col gap-1 items-center justify-center mt-[28px] lg:flex-row md:flex-row lg:ml-[-10px]'>
-          <img src={PlayStoreButton} alt='Playstore Download' className='cursor-pointer' />
-          <img src={AppStoreButton} alt='Appstore Download' className='cursor-pointer' />
+          <div
+            className='cursor-pointer'
+            style={{
+              backgroundImage: `url(${PlayStoreButton})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'contain',
+              width: '172px',
+              height: '67px',
+            }}
+            onMouseEnter={(e) => e.target.style.backgroundImage = `url(${PlayStoreSoon})`}
+            onMouseLeave={(e) => e.target.style.backgroundImage = `url(${PlayStoreButton})`}
+          ></div>
+          <div
+            className='cursor-pointer'
+            style={{
+              backgroundImage: `url(${AppStoreButton})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'contain',
+              width: '172px',
+              height: '67px',
+            }}
+            onMouseEnter={(e) => e.target.style.backgroundImage = `url(${AppStoreSoon})`}
+            onMouseLeave={(e) => e.target.style.backgroundImage = `url(${AppStoreButton})`}
+          ></div>
         </div>
       </div>
       {/* Robotpal */}

@@ -52,7 +52,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/gurjotsinghdev/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://gurjotsingh.tech/",
     },
   },
   {
