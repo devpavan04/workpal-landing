@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6adeb87a.css",
-    "main.js": "/static/js/main.b5f995b9.js",
+    "main.js": "/static/js/main.1d7c5f3e.js",
     "static/media/robotpal-waving-hq.webp": "/static/media/robotpal-waving-hq.49307b55ff9091e9e38f.webp",
     "static/media/record-meetings-screen.svg": "/static/media/record-meetings-screen.8b1b01aff88a621053a94df7a5d692d8.svg",
     "static/media/team.svg": "/static/media/team.e1ba50a47b7a3eadb55832044290809b.svg",
@@ -20,6 +20,8 @@
     "static/media/gurjot.svg": "/static/media/gurjot.508bfb9bb08127aff1389eef4906cbd9.svg",
     "static/media/export-tasks-screen.svg": "/static/media/export-tasks-screen.2b6d90ed886f0a95840bd3aa797b36b6.svg",
     "static/media/need-help-robotpal-icon.svg": "/static/media/need-help-robotpal-icon.33407cdb34262e3d23f138101c7900a1.svg",
+    "static/media/appstore-soon.svg": "/static/media/appstore-soon.a507a74425a4fb4a54f7ced025870b78.svg",
+    "static/media/playstore-soon.svg": "/static/media/playstore-soon.52d95a45415a02f27bbc08395bffefa8.svg",
     "static/media/appstore.svg": "/static/media/appstore.04cae79f7d3a4700f5c8ea70f6ae62df.svg",
     "static/media/playstore.svg": "/static/media/playstore.aa576eab20629d1bd36a0d25dded2329.svg",
     "static/media/CarbonaTest-ExtraBold.otf": "/static/media/CarbonaTest-ExtraBold.3a65e760e40f4cb54470.otf",
@@ -41,10 +43,10 @@
     "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.c7c8e83f735c7124b5fdd6bf11230835.svg",
     "index.html": "/index.html",
     "main.6adeb87a.css.map": "/static/css/main.6adeb87a.css.map",
-    "main.b5f995b9.js.map": "/static/js/main.b5f995b9.js.map"
+    "main.1d7c5f3e.js.map": "/static/js/main.1d7c5f3e.js.map"
   },
   "entrypoints": [
     "static/css/main.6adeb87a.css",
-    "static/js/main.b5f995b9.js"
+    "static/js/main.1d7c5f3e.js"
   ]
 }
