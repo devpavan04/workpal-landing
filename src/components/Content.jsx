@@ -21,7 +21,7 @@ export const Content = () => {
         <FeaturesSection />
 
         {/* Details Section */}
-        {/* <DetailsSection /> */}
+        <DetailsSection />
 
         {/* Team Section */}
         <TeamSection />
