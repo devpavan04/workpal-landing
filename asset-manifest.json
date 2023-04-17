@@ -1,8 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.86fc9654.css",
-    "main.js": "/static/js/main.8314705d.js",
+    "main.css": "/static/css/main.07d94cf9.css",
+    "main.js": "/static/js/main.0cd783b5.js",
+    "static/media/record-meetings-screen.svg": "/static/media/record-meetings-screen.8b1b01aff88a621053a94df7a5d692d8.svg",
+    "static/media/team.svg": "/static/media/team.e1ba50a47b7a3eadb55832044290809b.svg",
     "static/media/robotpal.svg": "/static/media/robotpal.db198fec244b91ba7c0dada687f5129c.svg",
+    "static/media/ask-robotpal-screen.svg": "/static/media/ask-robotpal-screen.0c9c3a126003f979b4440921920316f4.svg",
+    "static/media/schedule-meetings-screen.svg": "/static/media/schedule-meetings-screen.76a54e29531e9b854a407650c9fc56c6.svg",
+    "static/media/generate-report-screen.svg": "/static/media/generate-report-screen.f9454fe40cd909d99d02cde2e77d2f82.svg",
+    "static/media/aurelio.svg": "/static/media/aurelio.b3608502a7eef4b61b1dda0a81708e4e.svg",
+    "static/media/edward.svg": "/static/media/edward.aafc2788b3c4d3c5ea7f92b7b1c5efa6.svg",
+    "static/media/pavan.svg": "/static/media/pavan.cebeee4c16f8d1e0b1d54a2c52ca1ee6.svg",
+    "static/media/ana.svg": "/static/media/ana.5b3609bc8854adb85bf1d6e6cf1bfc6a.svg",
+    "static/media/aoi.svg": "/static/media/aoi.6efd86fc7707ec70961e735b056198a0.svg",
+    "static/media/saurab.svg": "/static/media/saurab.13198c79632cd1e6b7e339837b19a535.svg",
+    "static/media/javier.svg": "/static/media/javier.1f6f9cfa62e5b56c1ee192246c666983.svg",
+    "static/media/claire.svg": "/static/media/claire.614dd4e96f51243027b34d7526f313cd.svg",
+    "static/media/gurjot.svg": "/static/media/gurjot.508bfb9bb08127aff1389eef4906cbd9.svg",
+    "static/media/export-tasks-screen.svg": "/static/media/export-tasks-screen.2b6d90ed886f0a95840bd3aa797b36b6.svg",
     "static/media/appstore.svg": "/static/media/appstore.04cae79f7d3a4700f5c8ea70f6ae62df.svg",
     "static/media/playstore.svg": "/static/media/playstore.aa576eab20629d1bd36a0d25dded2329.svg",
     "static/media/CarbonaTest-ExtraBold.otf": "/static/media/CarbonaTest-ExtraBold.3a65e760e40f4cb54470.otf",
@@ -11,13 +26,23 @@
     "static/media/CarbonaTest-Regular.otf": "/static/media/CarbonaTest-Regular.fb6d1fa09cb1c4a3adef.otf",
     "static/media/wave.svg": "/static/media/wave.5b61b541fa7d9dacef6b34c91be66bac.svg",
     "static/media/workpal-wave-mobile.svg": "/static/media/workpal-wave-mobile.4443348da79364024cee6e1b1883fd87.svg",
+    "static/media/github.svg": "/static/media/github.fa36e435363215722d402376b2592046.svg",
     "static/media/workpal-logo.svg": "/static/media/workpal-logo.95454b56c6fe4cf09b150defb7733064.svg",
+    "static/media/magnetix-logo.svg": "/static/media/magnetix-logo.18b16fab36ec93b12dde4e1772a5a472.svg",
+    "static/media/web-logo.svg": "/static/media/web-logo.5e82c7844bf7eb5de2693abab97844de.svg",
+    "static/media/generate-report-icon.svg": "/static/media/generate-report-icon.8ff6db00bb124205b2fbfd3519019fca.svg",
+    "static/media/record-meetings-icon.svg": "/static/media/record-meetings-icon.4fa45d418647e842ea15a78e311d4684.svg",
+    "static/media/instagram-logo.svg": "/static/media/instagram-logo.f8e80e749ff314526afb67ca4f28439f.svg",
+    "static/media/ask-robotpal-icon.svg": "/static/media/ask-robotpal-icon.cbc12a4f62869b9dce1e75bf3ff800dc.svg",
+    "static/media/schedule-meetings-icon.svg": "/static/media/schedule-meetings-icon.521672f47f6a5eb5fd8115062ded9552.svg",
+    "static/media/export-tasks-icon.svg": "/static/media/export-tasks-icon.d9e61f7b5d22c22009437636c33f23d4.svg",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.c7c8e83f735c7124b5fdd6bf11230835.svg",
     "index.html": "/index.html",
-    "main.86fc9654.css.map": "/static/css/main.86fc9654.css.map",
-    "main.8314705d.js.map": "/static/js/main.8314705d.js.map"
+    "main.07d94cf9.css.map": "/static/css/main.07d94cf9.css.map",
+    "main.0cd783b5.js.map": "/static/js/main.0cd783b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.86fc9654.css",
-    "static/js/main.8314705d.js"
+    "static/css/main.07d94cf9.css",
+    "static/js/main.0cd783b5.js"
   ]
 }
