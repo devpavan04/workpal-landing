@@ -15,7 +15,7 @@ export const Content = () => {
         <HeroSection />
 
         {/* Video Section */}
-        {/* <VideoSection /> */}
+        <VideoSection />
 
         {/* Features Section */}
         {/* <FeaturesSection /> */}
