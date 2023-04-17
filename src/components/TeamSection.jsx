@@ -108,7 +108,7 @@ const team = [
 
 export const TeamSection = () => {
   return (
-    <div className='bg-neutral-1 pt-6 px-6 md:px-10'>
+    <div className='bg-neutral-1 pt-6 px-6 md:px-10 rounded-xl'>
       <h2 className='font-extraBold text-[28px] text-primary-one text-center'>Our Pals</h2>
       <div className='flex flex-wrap justify-center items-center gap-10 mt-10'>
         {team.map((member) => (
