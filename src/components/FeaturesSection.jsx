@@ -65,7 +65,7 @@ const FeatureItem = ({ title, screen, icon, description, reverse = false }) => {
 export const FeaturesSection = () => {
   return (
     <div>
-      <div className='pb-16'>
+      <div className='pb-16' id='features'>
         <div className='section-header mb-[30px] mt-[30px] lg:mb-[84px] lg:mt-[80px]'>
           <h2 className='text-primary-one text-center font-bold text-[28px] lg:font-extraBold lg:text-[36px]'>
             Our Features

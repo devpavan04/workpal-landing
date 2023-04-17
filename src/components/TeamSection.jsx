@@ -32,7 +32,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/aoinetsu/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://aoinetsu.com/",
     },
   },
   {
@@ -109,7 +109,7 @@ const team = [
 
 export const TeamSection = () => {
   return (
-    <div className="bg-neutral-1 pt-6 px-6 md:px-10 rounded-xl rounded-t-none">
+    <div className="bg-neutral-1 pt-6 px-6 md:px-10 rounded-xl rounded-t-none" id="team">
       <h2 className="font-extraBold text-[28px] text-primary-one text-center">
         Our Pals
       </h2>
