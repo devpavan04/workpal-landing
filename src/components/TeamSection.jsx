@@ -22,7 +22,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/Anarodriguezv/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "http://anarodriguez.ca/",
     },
   },
   {
@@ -42,7 +42,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/aurelioselman/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://aurelioselman.com/",
     },
   },
   {
@@ -62,7 +62,7 @@ const team = [
     linkedInLink: "https://www.linkedin.com/in/javier-p-r/",
     otherLink: {
       type: "web",
-      link: "",
+      link: "https://javierperez.ca/",
     },
   },
   {
